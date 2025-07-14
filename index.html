@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="logo" id="logo">
+                <i class="fab fa-spotify"></i>
+                <span>Spotify</span>
+            </div>
+            <ul class="nav" id="main-nav">
+                <li class="active" id="nav-home"><i class="fas fa-home"></i> Home</li>
+                <li id="nav-search"><i class="fas fa-search"></i> Search</li>
+                <li id="nav-library"><i class="fas fa-book"></i> Your Library</li>
+                <li id="nav-create"><i class="fas fa-plus-square"></i> Create Playlist</li>
+                <li id="nav-liked"><i class="fas fa-heart"></i> Liked Songs</li>
+            </ul>
+            <div class="playlists" id="playlists">
+                <h3>PLAYLISTS</h3>
+                <ul id="playlist-items">
+                    <li id="playlist-top-hits">Today's Top Hits</li>
+                    <li id="playlist-discover">Discover Weekly</li>
+                    <li id="playlist-chill">Chill Hits</li>
+                    <li id="playlist-rock">Rock Classics</li>
+                    <li id="playlist-piano">Peaceful Piano</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content" id="main-content">
+            <div class="header" id="main-header">
+                <div class="nav-buttons" id="nav-buttons">
+                    <button class="back-btn" id="back-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="forward-btn" id="forward-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="user-profile" id="user-profile">
+                    <img src="Nandeesh.jpg" alt="User" id="user-avatar" />
+                    <span id="username">Nandeesh M H</span>
+                </div>
+            </div>
+
+            <div class="content" id="content">
+                <h1 id="greeting">Good afternoon</h1>
+                <div class="playlist-grid" id="featured-playlists">
+                    <div class="playlist-card" id="playlist-card-1">
+                        <img src="DOWNLOAD1.jpg" alt="Playlist" />
+                        <h3>MAX</h3>
+                        <p>Chethan Gandharva</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-2">
+                        <img src="download2.jpg" alt="Playlist" />
+                        <h3>CHAMAK</h3>
+                        <p>Sanjith Hegde</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-3">
+                        <img src="download3.jpg" alt="Playlist" />
+                        <h3>MAFTI</h3>
+                        <p>Ravi Basrur</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-4">
+                        <img src="download4.jpg" alt="Playlist" />
+                        <h3>HEBBULI</h3>
+                        <p>Jack Style, Arun Raja, and Kamaraj</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-5">
+                        <img src="download5.jpg" alt="Playlist" />
+                        <h3>DEVARA</h3>
+                        <p>Anirudh Ravichander</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-6">
+                        <img src="download6.jpg" alt="Playlist" />
+                        <h3>KGF 1</h3>
+                        <p>Vijay Prakash, Santhosh Venky</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-6">
+                        <img src="download14.jpg" alt="Playlist" />
+                        <h3>UI</h3>
+                        <p>B. Ajaneesh Loknath</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-6">
+                        <img src="download15.jpg" alt="Playlist" />
+                        <h3>KISS</h3>
+                        <p>Shreya Ghoshal</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-6">
+                        <img src="download16.jpg" alt="Playlist" />
+                        <h3>BHEEMA</h3>
+                        <p>Charan Raj, Vaish, MC Bijju</p>
+                    </div>
+                    <div class="playlist-card" id="playlist-card-6">
+                        <img src="download17.jpg" alt="Playlist" />
+                        <h3>RRR</h3>
+                        <p>Keeravaani for the song "Janani"</p>
+                    </div>
+                </div>
+
+                <h2 id="recently-played-title">Recently played</h2>
+                <div class="recently-played" id="recently-played">
+                    <div class="song-card" id="song-card-1">
+                        <img src="download8.jpg" alt="Song" />
+                        <h4>KANTAARA</h4>
+                        <p>The Weeknd</p>
+                    </div>
+                    <div class="song-card" id="song-card-2">
+                        <img src="download9.jpg" alt="Song" />
+                        <h4>KATERA</h4>
+                        <p> Vijay Prakash </p>
+                    </div>
+                    <div class="song-card" id="song-card-3">
+                        <img src="download10.jpg" alt="Song" />
+                        <h4>MARTIN</h4>
+                        <p>Sonu Nigam</p>
+                    </div>
+                    <div class="song-card" id="song-card-4">
+                        <img src="download11.jpg" alt="Song" />
+                        <h4>KOTI</h4>
+                        <p>Vasuki Vaibhav</p>
+                    </div>
+                    <div class="song-card" id="song-card-5">
+                        <img src="download12.jpg" alt="Song" />
+                        <h4>RAANJHAN</h4>
+                        <p>Jaswinder Singh</p>
+                    </div>
+                    <div class="song-card" id="song-card-6">
+                        <img src="download13.jpg" alt="Song" />
+                        <h4>JAI BALAYYA</h4>
+                        <p>Thaman S</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player -->
+        <div class="player" id="player">
+            <div class="song-info" id="now-playing">
+                <div class="song-details" id="now-playing-details">
+                    <h4 id=Three>Three</h4>
+                    <p id="now-playing-artist">Film Song</p>
+                </div>
+                <i class="far fa-heart" id="like-button"></i>
+            </div>
+            <div class="player-controls" id="player-controls">
+                <div class="controls" id="main-controls">
+                    <button class="shuffle" id="shuffle-btn"><i class="fas fa-random"></i></button>
+                    <button class="previous" id="previous-btn"><i class="fas fa-step-backward"></i></button>
+                    <button class="play" id="play-btn"><i class="fas fa-play"></i></button>
+                    <button class="next" id="next-btn"><i class="fas fa-step-forward"></i></button>
+                    <button class="repeat" id="repeat-btn"><i class="fas fa-redo"></i></button>
+                </div>
+                <div class="progress-container" id="progress-container">
+                    <span class="time-start" id="time-start">0:00</span>
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <span class="time-end" id="time-end">3:20</span>
+                </div>
+            </div>
+            <div class="volume-control" id="volume-control">
+                <i class="fas fa-volume-up" id="volume-icon"></i>
+                <div class="volume-bar" id="volume-bar">
+                    <div class="volume-level" id="volume-level"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
